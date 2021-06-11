@@ -1,4 +1,3 @@
-
 # This is a comment
 # This config file is for use with the `build_data` and `check_data` functions,
 # which are helpers for implementations of Open SDG. This file allows easy use
@@ -10,7 +9,7 @@
 # languages. Each build is in its own subfolder - one for each language.
 languages:
   - en
-  - es
+  - ne
 
 # Destination directory
 # ---------------------
@@ -40,21 +39,46 @@ src_dir: ''
 # folder. Further, each item can have any/all of the parameters that class uses.
 # The defaults below show what is used when this is omitted.
 inputs:
-  - class: InputCsvData
-    # This describes the data files, relative to the "src_dir" indicated above.
-    path_pattern: data/*-*.csv
-  - class: InputYamlMdMeta
-    # This describes the meta files, relative to the "src_dir" indicated above.
-    path_pattern: meta/*-*.md
-    # This specifies whether or not to use Git to calculate the "last updated"
-    # dates for data files.
-    git: true
-    # This specifies an alternate folder to look in for Git-versioned data files,
-    # when calculating the "last updated" dates for data files. This defaults to
-    # "data" (the folder where the data files actually exist.) Most sites will not
-    # need to change this setting. It is intended for sites where the data needs
-    # to be "built" before being processed by sdg-build.
-    git_data_dir: data
+  - class: InputYamlMeta
+    path_pattern: indicator-config/*-*.yml
+  - class: InputWordMeta
+    path_pattern: meta/*-*.docm
+  - class: InputSdmxMl_Multiple
+    path_pattern: 'data/*.xml'
+    dimension_map:
+      REF_AREA|NP: ''
+    drop_dimensions:
+      - SOURCE_DETAIL
+      - NATURE
+      - FREQ
+      - REPORTING_TYPE
+      - OBS_STATUS
+      - UNIT_MULT
+    drop_singleton_dimensions: false
+    dsd: 'CBS_DSD.xml'
+    import_codes: true
+  #- class: InputSdmxMl_UnitedNationsApi
+  # dimension_map:
+  #    UNIT_MEASURE: 'Units'
+  #    SERIES: 'Series'
+  #    REF_AREA|524: ''
+  #  reference_area: 524
+  #  import_codes: true
+  #  drop_singleton_dimensions: false
+  #  drop_dimensions:
+  #    - UPPER_BOUND
+  #    - LOWER_BOUND
+  #    - UNIT_MULT
+  #    - COMMENT_OBS
+  #    - SOURCE_DETAIL
+  #    - BASE_PER
+  #    - NATURE
+  #    - DATA_LAST_UPDATE
+  #    - FREQ
+  #    - REPORTING_TYPE
+  #    - TIME_DETAIL
+  #    - OBS_STATUS
+  
 
 # Translations
 # ------------
@@ -66,10 +90,13 @@ inputs:
 # project. Further, each item can have any/all of the parameters that class uses.
 # The defaults below show what is used when this is omitted.
 translations:
+  - class: TranslationInputSdmx
+    source: 'CBS_DSD.xml'
+    # source: https://registry.sdmx.org/ws/public/sdmxapi/rest/datastructure/IAEG-SDGs/SDG/latest/?format=sdmx-2.1&detail=full&references=children
   # This pulls in translations from a Git repository.
   - class: TranslationInputSdgTranslations
     source: https://github.com/open-sdg/sdg-translations.git
-    tag: master
+    tag: 1.4.0-dev
   # This pulls in translations from a local 'translations' folder.
   - class: TranslationInputYaml
     source: translations
