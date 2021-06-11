@@ -1,0 +1,30 @@
+{
+  "resources": [
+    {
+      "path": "data.csv",
+      "name": "data",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "number",
+            "title": "Year"
+          },
+          {
+            "name": "Value",
+            "type": "number",
+            "title": "Value"
+          }
+        ]
+      }
+    }
+  ],
+  "profile": "data-package",
+  "name": "4-a-1",
+  "title": "(A) बिजुलीमा पहुँच भएका विद्यालयहरूको अनुपात; (बी) शैक्षिक उद्देश्यको लागि इन्टरनेट; (c) शैक्षिक उद्देश्यका लागि कम्प्युटरहरू; (d) अशक्त विद्यार्थीहरूको लागि अनुकूलित पूर्वाधार र सामग्रीहरू; ()) आधारभूत पिउने पानी; (f) एकल-सेक्स आधारभूत सरसफाई सुविधाहरू; र (g) आधारभूत ह्यान्डवशि facilities सुविधाहरू (WASH सूचक परिभाषा अनुसार)"
+}

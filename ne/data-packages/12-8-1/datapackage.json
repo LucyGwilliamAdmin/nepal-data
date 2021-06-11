@@ -1,0 +1,30 @@
+{
+  "resources": [
+    {
+      "path": "data.csv",
+      "name": "data",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "number",
+            "title": "Year"
+          },
+          {
+            "name": "Value",
+            "type": "number",
+            "title": "Value"
+          }
+        ]
+      }
+    }
+  ],
+  "profile": "data-package",
+  "name": "12-8-1",
+  "title": "(I) वैश्विक नागरिकता शिक्षा र (ii) दिगो विकासको लागि शिक्षा (जलवायु परिवर्तन शिक्षा सहित) लाई (क) राष्ट्रिय शिक्षा नीतिमा मुख्य आधार मानिन्छ। (b) पाठ्यक्रम; (ग) शिक्षक शिक्षा; र (d) विद्यार्थी मूल्यांकन"
+}

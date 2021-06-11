@@ -1,0 +1,30 @@
+{
+  "resources": [
+    {
+      "path": "data.csv",
+      "name": "data",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "number",
+            "title": "Year"
+          },
+          {
+            "name": "Value",
+            "type": "number",
+            "title": "Value"
+          }
+        ]
+      }
+    }
+  ],
+  "profile": "data-package",
+  "name": "16-7-1",
+  "title": "राष्ट्रिय वितरणको तुलनामा सार्वजनिक संस्थानहरू (राष्ट्रिय र स्थानीय विधायिका, सार्वजनिक सेवा, र न्यायपालिका) मा पद (सेक्स, उमेर, अशक्त र जनसंख्या समूह) को पदोन्नति।"
+}

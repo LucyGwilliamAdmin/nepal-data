@@ -1,0 +1,30 @@
+{
+  "resources": [
+    {
+      "path": "data.csv",
+      "name": "data",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "number",
+            "title": "Year"
+          },
+          {
+            "name": "Value",
+            "type": "number",
+            "title": "Value"
+          }
+        ]
+      }
+    }
+  ],
+  "profile": "data-package",
+  "name": "12-1-1",
+  "title": "दिगो उपभोग र उत्पादन (SCP) राष्ट्रिय कार्य योजनाहरू वा SCP मुख्य आधारमा राष्ट्रिय नीतिहरूमा प्राथमिकता वा लक्ष्यको रूपमा राष्ट्रहरूको संख्या"
+}

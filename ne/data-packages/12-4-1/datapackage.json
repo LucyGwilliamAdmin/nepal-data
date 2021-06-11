@@ -1,0 +1,30 @@
+{
+  "resources": [
+    {
+      "path": "data.csv",
+      "name": "data",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "number",
+            "title": "Year"
+          },
+          {
+            "name": "Value",
+            "type": "number",
+            "title": "Value"
+          }
+        ]
+      }
+    }
+  ],
+  "profile": "data-package",
+  "name": "12-4-1",
+  "title": "खतरनाक फोहोर र अन्य रसायनहरूमा अन्तर्राष्ट्रिय बहुपक्षीय वातावरणीय सम्झौतामा दलहरूको संख्या जुन प्रत्येक सान्दर्भिक सम्झौताले आवश्यक अनुसार जानकारी प्रसारित गर्न आफ्ना प्रतिबद्धता र दायित्वहरू पूरा गर्दछ।"
+}

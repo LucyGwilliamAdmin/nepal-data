@@ -1,3 +1,7 @@
-Year,Value
-2015,2
-2016,2
+Year,Value,UNIT_MEASURE,SERIES
+2019,39.2,Percent,Percentage of children who successfully completed three foundational reading tasks (a) Age 7-14 [4.1.1]
+2019,14.5,Percent,Percentage of children who successfully completed three foundational reading tasks (b) Age for grade 2/3 (6/7 years) [4.1.1]
+2019,19.9,Percent,Percentage of children who successfully completed three foundational reading tasks (c) Attending grade 2/3 [4.1.1]
+2019,36.8,Percent,Percentage of children who successfully completed four foundational number tasks (d) Age 7-14 [4.1.1]
+2019,13.7,Percent,Percentage of children who successfully completed four foundational number tasks  (e) Age for grade 2/3 (6/7 years) [4.1.1]
+2019,19.7,Percent,Percentage of children who successfully completed four foundational number tasks (f) Attending grade 2/3 [4.1.1]

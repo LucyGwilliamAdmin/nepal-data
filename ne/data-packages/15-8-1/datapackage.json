@@ -1,0 +1,30 @@
+{
+  "resources": [
+    {
+      "path": "data.csv",
+      "name": "data",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "number",
+            "title": "Year"
+          },
+          {
+            "name": "Value",
+            "type": "number",
+            "title": "Value"
+          }
+        ]
+      }
+    }
+  ],
+  "profile": "data-package",
+  "name": "15-8-1",
+  "title": "देशहरूको सान्दर्भिक राष्ट्रिय कानून अपनाउने र आक्रमक विदेशी प्रजातिहरूको रोकथाम वा नियन्त्रणलाई पर्याप्त रिसोर्स गर्दै"
+}

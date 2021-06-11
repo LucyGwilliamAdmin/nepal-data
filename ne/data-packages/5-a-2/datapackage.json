@@ -1,0 +1,30 @@
+{
+  "resources": [
+    {
+      "path": "data.csv",
+      "name": "data",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "number",
+            "title": "Year"
+          },
+          {
+            "name": "Value",
+            "type": "number",
+            "title": "Value"
+          }
+        ]
+      }
+    }
+  ],
+  "profile": "data-package",
+  "name": "5-a-2",
+  "title": "देशहरूको अनुपात जहाँ कानूनी रूपरेखा (परम्परागत कानून सहित) महिलाको जग्गा स्वामित्व र / वा नियन्त्रणको समान अधिकारको ग्यारेन्टी गर्दछ"
+}

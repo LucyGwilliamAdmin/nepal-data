@@ -1,0 +1,30 @@
+{
+  "resources": [
+    {
+      "path": "data.csv",
+      "name": "data",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "number",
+            "title": "Year"
+          },
+          {
+            "name": "Value",
+            "type": "number",
+            "title": "Value"
+          }
+        ]
+      }
+    }
+  ],
+  "profile": "data-package",
+  "name": "6-b-1",
+  "title": "पानी र सरसफाई व्यवस्थापनमा स्थानीय समुदायको सहभागिताको लागि स्थापित र परिचालन नीति र प्रक्रियाहरू सहित स्थानीय प्रशासनिक एकाइहरूको अनुपात"
+}

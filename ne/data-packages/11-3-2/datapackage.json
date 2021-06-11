@@ -1,0 +1,30 @@
+{
+  "resources": [
+    {
+      "path": "data.csv",
+      "name": "data",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "number",
+            "title": "Year"
+          },
+          {
+            "name": "Value",
+            "type": "number",
+            "title": "Value"
+          }
+        ]
+      }
+    }
+  ],
+  "profile": "data-package",
+  "name": "11-3-2",
+  "title": "सहरी योजना र व्यवस्थापनमा नागरिक समाजको प्रत्यक्ष सहभागिता संरचनासहित शहरहरूको अनुपात जुन नियमित र लोकतान्त्रिक ढ operate्गले सञ्चालन हुन्छ"
+}

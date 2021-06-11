@@ -1,0 +1,30 @@
+{
+  "resources": [
+    {
+      "path": "data.csv",
+      "name": "data",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "number",
+            "title": "Year"
+          },
+          {
+            "name": "Value",
+            "type": "number",
+            "title": "Value"
+          }
+        ]
+      }
+    }
+  ],
+  "profile": "data-package",
+  "name": "14-c-1",
+  "title": "कानुनी, नीति र संस्थागत रूपरेखामार्फत अनुमोदन, स्वीकार र कार्यान्वयनमा प्रगति गरिरहेका देशहरूको संख्या, अन्तर्राष्ट्रिय कानून लागू गर्ने समुद्री सम्बन्धी उपकरणहरू, जसको संरक्षण र दिगो उपयोगको लागि संयुक्त राष्ट्रसंघीय महासvention्घको समुद्रको कानूनमा प्रतिबिम्बित छ। सागरहरू र उनीहरूका श्रोतहरू"
+}

@@ -1,0 +1,30 @@
+{
+  "resources": [
+    {
+      "path": "data.csv",
+      "name": "data",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "number",
+            "title": "Year"
+          },
+          {
+            "name": "Value",
+            "type": "number",
+            "title": "Value"
+          }
+        ]
+      }
+    }
+  ],
+  "profile": "data-package",
+  "name": "10-3-1",
+  "title": "गत १२ महिनामा अन्तर्राष्ट्रिय मानव अधिकार कानून अन्तर्गत निषेध गरिएको भेदभावको आधारमा व्यक्तिगत रूपमा भेदभाव वा उत्पीडन भएको जनसंख्या रिपोर्टिंगको अनुपात"
+}

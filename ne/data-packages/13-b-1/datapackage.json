@@ -1,0 +1,30 @@
+{
+  "resources": [
+    {
+      "path": "data.csv",
+      "name": "data",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "number",
+            "title": "Year"
+          },
+          {
+            "name": "Value",
+            "type": "number",
+            "title": "Value"
+          }
+        ]
+      }
+    }
+  ],
+  "profile": "data-package",
+  "name": "13-b-1",
+  "title": "कम से कम विकसित देशहरू र साना टापु विकास गर्ने राज्यहरूको स that्ख्या जसले विशेष समर्थन प्राप्त गर्दै छ, र वित्त, प्रविधि र क्षमता निर्माण सहित महिलालाई केन्द्रित गर्दै, प्रभावी जलवायु परिवर्तन-सम्बन्धित योजना र व्यवस्थापनका लागि क्षमता अभिवृद्धि गर्न संयन्त्रहरूको लागि। युवा र स्थानीय र सीमान्तकृत समुदायहरू"
+}

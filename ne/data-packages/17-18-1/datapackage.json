@@ -1,0 +1,30 @@
+{
+  "resources": [
+    {
+      "path": "data.csv",
+      "name": "data",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "number",
+            "title": "Year"
+          },
+          {
+            "name": "Value",
+            "type": "number",
+            "title": "Value"
+          }
+        ]
+      }
+    }
+  ],
+  "profile": "data-package",
+  "name": "17-18-1",
+  "title": "आधिकारिक तथ्या of्कका मौलिक सिद्धान्तहरूको आधारमा लक्ष्यसँग सान्दर्भिक भएमा पूर्ण असमानताका साथ राष्ट्रिय स्तरमा उत्पादन हुने दिगो विकास सूचकहरूको अनुपात।"
+}

@@ -1,3 +1,4 @@
-Year,Value
-2015,2
-2016,2
+Year,Value,UNIT_MEASURE,SERIES
+2019,40.0,Percent,Proportion of the target population covered by all vaccines included in their national programme [3.b.1]
+2014,67.1,Percent,Percentage of children who at age 12-23 months had received all basic vaccinations at any time before the survey [3.b.1]
+2019,70.2,Percent,Percentage of children who at age 12-23 months had received all basic vaccinations at any time before the survey [3.b.1]

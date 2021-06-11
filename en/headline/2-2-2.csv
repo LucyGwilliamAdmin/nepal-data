@@ -1,3 +1,8 @@
-Year,Value
-2015,2
-2016,2
+Year,Value,UNIT_MEASURE,SERIES
+2014,11.3,Percent,Proportion of children moderately or severely wasted [2.2.2]
+2019,12.0,Percent,Proportion of children moderately or severely wasted [2.2.2]
+2014,2.1,Percent,Proportion of children moderately or severely overweight [2.2.2]
+2019,2.6,Percent,Proportion of children moderately or severely overweight [2.2.2]
+2014,3.2,Percent,Percentage of children under age 5 who fall below minus three standard deviations (severe) of the median weight for age of the WHO standard [2.2.2]
+2019,2.9,Percent,Percentage of children under age 5 who fall below minus three standard deviations (severe) of the median weight for age of the WHO standard [2.2.2]
+2019,1.0,Percent,Percentage of children under age 5 who are above three standard deviations (severe) of the median weight for height of the WHO standard [2.2.2]

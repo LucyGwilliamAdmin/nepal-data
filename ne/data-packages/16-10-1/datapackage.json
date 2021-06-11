@@ -1,0 +1,30 @@
+{
+  "resources": [
+    {
+      "path": "data.csv",
+      "name": "data",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "number",
+            "title": "Year"
+          },
+          {
+            "name": "Value",
+            "type": "number",
+            "title": "Value"
+          }
+        ]
+      }
+    }
+  ],
+  "profile": "data-package",
+  "name": "16-10-1",
+  "title": "अघिल्लो १२ महिनामा पत्रकार, सम्बन्धित सञ्चारकर्मी, ट्रेड युनियन र मानवअधिकार अधिवक्ताको हत्या, अपहरण, बेपत्ता पार्नु, बेपत्ता पार्ने काम, मनमानी हिरासत र यातना दिइएका प्रमाणित घटनाहरुको संख्या।"
+}

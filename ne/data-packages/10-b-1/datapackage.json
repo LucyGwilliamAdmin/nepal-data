@@ -1,0 +1,30 @@
+{
+  "resources": [
+    {
+      "path": "data.csv",
+      "name": "data",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "number",
+            "title": "Year"
+          },
+          {
+            "name": "Value",
+            "type": "number",
+            "title": "Value"
+          }
+        ]
+      }
+    }
+  ],
+  "profile": "data-package",
+  "name": "10-b-1",
+  "title": "विकासकर्ताहरूको लागि कुल स्रोत प्रवाह, प्राप्तकर्ता र दाता देशहरू र प्रकारको प्रवाह (उदाहरणका लागि सरकारी विकास सहायता, विदेशी प्रत्यक्ष लगानी र अन्य प्रवाहहरू)"
+}

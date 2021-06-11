@@ -1,0 +1,30 @@
+{
+  "resources": [
+    {
+      "path": "data.csv",
+      "name": "data",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "number",
+            "title": "Year"
+          },
+          {
+            "name": "Value",
+            "type": "number",
+            "title": "Value"
+          }
+        ]
+      }
+    }
+  ],
+  "profile": "data-package",
+  "name": "3-9-2",
+  "title": "असुरक्षित पानी, असुरक्षित सरसफाइ र सरसफाइको अभाव (असुरक्षित पानी, स्वच्छता र सबैका लागि स्वच्छता (WASH) सेवाहरूको लागि जोखिम) लाई जिम्मेवार मृत्यु दर"
+}

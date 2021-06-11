@@ -1,3 +1,5 @@
-Year,Value
-2015,2
-2016,2
+Year,Value,UNIT_MEASURE,SERIES
+2014,37.4,Percent,Proportion of children moderately or severely stunted [2.2.1]
+2019,31.5,Percent,Proportion of children moderately or severely stunted [2.2.1]
+2014,15.8,Percent,Percentage of children under age 5 who fall below minus three standard deviations (severe) of the median height for age of the WHO standard [2.2.1]
+2019,11.8,Percent,Percentage of children under age 5 who fall below minus three standard deviations (severe) of the median height for age of the WHO standard [2.2.1]

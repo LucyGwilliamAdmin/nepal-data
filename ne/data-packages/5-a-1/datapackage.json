@@ -1,0 +1,30 @@
+{
+  "resources": [
+    {
+      "path": "data.csv",
+      "name": "data",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "number",
+            "title": "Year"
+          },
+          {
+            "name": "Value",
+            "type": "number",
+            "title": "Value"
+          }
+        ]
+      }
+    }
+  ],
+  "profile": "data-package",
+  "name": "5-a-1",
+  "title": "(क) कुल जग्गाको स्वामित्व वा कृषि जग्गामा सुरक्षित अधिकार सहित कुल जनसंख्याको अनुपात, सेक्स द्वारा; र (ख) कार्यकालको प्रकारले कृषि भूमिका मालिक वा अधिकारदाता बीचमा महिलाहरूको अंश"
+}

@@ -1,0 +1,30 @@
+{
+  "resources": [
+    {
+      "path": "data.csv",
+      "name": "data",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "number",
+            "title": "Year"
+          },
+          {
+            "name": "Value",
+            "type": "number",
+            "title": "Value"
+          }
+        ]
+      }
+    }
+  ],
+  "profile": "data-package",
+  "name": "17-9-1",
+  "title": "आर्थिक र प्राविधिक सहयोगको डलर मूल्य (उत्तर South दक्षिण, दक्षिण ‐ दक्षिण र त्रिकोणीय सहयोग सहित) विकासोन्मुख देशहरूका लागि प्रतिबद्ध"
+}
