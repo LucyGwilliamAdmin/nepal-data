@@ -108,7 +108,10 @@ translations:
 reporting_status_extra_fields: []
 
 sdmx_output:
+  dsd: CBS_DSD.xml
   constrain_meta: true
+  meta_reporting_type: N
+  meta_ref_area: NP
 
 # Map layers
 # ----------
