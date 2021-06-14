@@ -43,6 +43,9 @@ inputs:
     path_pattern: indicator-config/*-*.yml
   - class: InputWordMeta
     path_pattern: meta/*-*.docm
+  - class: InputSdmxMeta
+    source: https://unstats.un.org/SDGMetadataAPI/api/Metadata/SDMXReport/G.ALL.1
+    meta_suffix: __GLOBAL
   - class: InputSdmxMl_Multiple
     path_pattern: 'data/*.xml'
     dimension_map:
